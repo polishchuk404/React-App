@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import PostBlock from "./components/PostBlock/PostBlock";
+import Posts from "./components/Posts/Posts";
 
 ReactDOM.render(
   <React.StrictMode>
-    <PostBlock />
+    <Posts />
   </React.StrictMode>,
   document.getElementById("root")
 );
